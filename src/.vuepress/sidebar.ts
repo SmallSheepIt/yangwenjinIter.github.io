@@ -20,7 +20,7 @@ export default sidebar({
       ]
     },
     {
-      text: "spring",
+      text: "spring系列",
       prefix: "spring系列/",
       collapsible: true,
       children: [
