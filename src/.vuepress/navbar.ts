@@ -74,7 +74,7 @@ export default navbar([
         ]
       },
       {
-        text: "spring",
+        text: "spring系列",
         // link: "spring/",
         prefix: "spring系列/",
         children: [
