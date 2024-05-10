@@ -52,26 +52,39 @@ export default navbar([
   {
     text: "Java",
     prefix: "/java/",
-    icon: "book",
     children: [
       {
         text: "java基础",
-        icon: "pen-to-square",
-        link: "java基础/"
-        // prefix: "java基础/",
-        // children: [
-        //   { text: "1", icon: "pen-to-square", link: "数据类型" },
-        // ],
+        // link: "java基础/"
+        prefix: "java基础/",
+        children: [
+          {
+            text: "数据类型", link: "数据类型"
+          }
+        ]
       },
       {
         text: "java进阶",
-        icon: "pen-to-square",
-        link: "java进阶/"
+        // link: "java进阶/",
+        prefix: "java进阶/",
+        children: [
+          {
+            text: "IO", link: "IO"
+          }
+        ]
       },
       {
-        text: "Spring",
-        icon: "pen-to-square",
-        link: "Spring/"
+        text: "spring",
+        // link: "spring/",
+        prefix: "spring/",
+        children: [
+          {
+            text: "AOP", link: "AOP"
+          },
+          {
+            text: "IOC", link: "IOC"
+          },
+        ]
       },
     ]
   },

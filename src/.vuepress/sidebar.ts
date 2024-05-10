@@ -1,29 +1,31 @@
 import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar({
+  // "/java/": "structure",
   "/java/": [
     {
-      text: "Java",
+      text: "Java基础",
+      prefix: "java基础/",
       collapsible: true,
       children: [
-        {
-          text: "基础",
-          prefix: "java基础/",
-          collapsible: true,
-          children: ["数据类型"]
-        },
-        {
-          text: "进阶",
-          prefix: "java进阶/",
-          collapsible: true,
-          children: ["IO"]
-        },
-        {
-          text: "Spring",
-          prefix: "Spring/",
-          collapsible: true,
-          children: ["IOC", "AOP"]
-        },
+          "数据类型"
+      ]
+    },
+    {
+      text: "Java进阶",
+      prefix: "java进阶/",
+      collapsible: true,
+      children: [
+          "IO"
+      ]
+    },
+    {
+      text: "spring",
+      prefix: "spring/",
+      collapsible: true,
+      children: [
+          "IOC",
+          "AOP"
       ]
     },
   ],
