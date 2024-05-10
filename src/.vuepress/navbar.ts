@@ -76,7 +76,7 @@ export default navbar([
       {
         text: "spring",
         // link: "spring/",
-        prefix: "spring/",
+        prefix: "spring系列/",
         children: [
           {
             text: "AOP", link: "AOP"

@@ -21,7 +21,7 @@ export default sidebar({
     },
     {
       text: "spring",
-      prefix: "spring/",
+      prefix: "spring系列/",
       collapsible: true,
       children: [
           "IOC",
