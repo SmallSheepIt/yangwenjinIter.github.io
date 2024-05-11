@@ -8,11 +8,12 @@ export default hopeTheme({
   hostname: "http://113.45.177.232/",
   author: {
     name: "yang 同学",
-    url: "https://mister-hope.com",
+    url: "http://113.45.177.232/",
+    email: "1757821361@qq.com"
   },
 
   // 内置的"fontawesome" "fontawesome-with-brands"
-  iconAssets: "//at.alicdn.com/t/c/font_4542339_zenunby0axf.css",
+  iconAssets: "//at.alicdn.com/t/c/font_4542339_g1xzxah8ifm.css",
 
   // 纯净模式，会禁用一些花哨的动画以及一些色彩，只提供功能
   // pure: true,
@@ -20,7 +21,7 @@ export default hopeTheme({
 
 
   // logo: "https://theme-hope-assets.vuejs.press/logo.svg",
-  logo: "/logo.png",
+  logo: "/avatar.png",
 
   repo: "https://github.com/yangwenjinIter/yangwenjinIter.github.io",
   // 自定义仓库链接文字。默认从 `repo` 中自动推断为
@@ -29,7 +30,11 @@ export default hopeTheme({
   // 是否在导航栏内显示仓库链接，默认为 `true`
   repoDisplay: true,
 
+  // 文档仓库地址，默认同主题选项的 repo
+  docsRepo: "https://github.com/yangwenjinIter/yangwenjinIter.github.io",
   docsDir: "src",
+  // 文档存放的分支，默认 main
+  docsBranch: "main",
 
   // 导航栏
   navbar,
@@ -47,9 +52,12 @@ export default hopeTheme({
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "Word","ReadingTime"],
   lastUpdated: true,
   contributors: true,
+  editLink: true,
 
   // 博客相关
   blog: {
+    name: "yang 同学",
+    avatar: "/avatar.png",
     description: "梦想黑客",
     intro: "/intro.html",
     sidebarDisplay: "mobile",
@@ -107,6 +115,14 @@ export default hopeTheme({
 
   // 在这里配置主题提供的插件
   plugins: {
+    copyright: {
+      author: " yang 同学",
+      license: "MIT",
+      triggerLength: 100,
+      maxLength: 700,
+      // canonical: "https://javaguide.cn/",
+      global: true,
+    },
     activeHeaderLinks: true,
     prismjs: false,
     blog: true,
@@ -115,7 +131,7 @@ export default hopeTheme({
     // 警告: 这是一个仅供演示的测试服务，在生产环境中请自行部署并使用自己的服务！
     // comment: {
     //   provider: "Waline",
-    //   serverURL: "https://waline-comment.vuejs.press",
+    //   serverURL: "http://113.45.177.232/",
     // },
 
     components: {

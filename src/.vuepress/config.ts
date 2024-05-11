@@ -1,6 +1,7 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 import { shikiPlugin } from "@vuepress/plugin-shiki";
+import { commentPlugin } from '@vuepress/plugin-comment'
 
 export default defineUserConfig({
   base: "/",
@@ -9,7 +10,7 @@ export default defineUserConfig({
   description: "有输入才能有输出；输出激励输入；输出是手段；体系是目的",
 
   head: [
-    
+
   ],
 
   theme,
@@ -21,6 +22,17 @@ export default defineUserConfig({
         light: "github-light",
         dark: "one-dark-pro",
       },
+    }),
+    // 评论
+    commentPlugin({
+      // comment: false,
+      provider: "Giscus",
+      repo :"yangwenjinIter/yangwenjin-docs-comment-giscus",
+      repoId:"R_kgDOL6Klig",
+      category:"General",
+      categoryId:"DIC_kwDOL6Klis4CfSf7",
+      mapping: "pathname",
+      lazyLoading: true,
     }),
   ],
 

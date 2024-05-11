@@ -2,97 +2,60 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  "/demo/",
-  {
-    text: "博文",
-    icon: "pen-to-square",
-    prefix: "/posts/",
-    children: [
-      {
-        text: "苹果",
-        icon: "pen-to-square",
-        prefix: "apple/",
-        children: [
-          { text: "苹果1", icon: "pen-to-square", link: "1" },
-          { text: "苹果2", icon: "pen-to-square", link: "2" },
-          "3",
-          "4",
-        ],
-      },
-      {
-        text: "香蕉",
-        icon: "pen-to-square",
-        prefix: "banana/",
-        children: [
-          {
-            text: "香蕉 1",
-            icon: "pen-to-square",
-            link: "1",
-          },
-          {
-            text: "香蕉 2",
-            icon: "pen-to-square",
-            link: "2",
-          },
-          "3",
-          "4",
-        ],
-      },
-      { text: "樱桃", icon: "pen-to-square", link: "cherry" },
-      { text: "火龙果", icon: "pen-to-square", link: "dragonfruit" },
-      "tomato",
-      "strawberry",
-    ],
-  },
-  {
-    text: "V2 文档",
-    icon: "book",
-    link: "https://theme-hope.vuejs.press/zh/",
-  },
   {
     text: "Java",
-    prefix: "/java/",
+    // prefix: "/java/",
     icon: "java",
     children: [
       {
-        text: "java基础",
-        // link: "java基础/"
-        prefix: "java基础/",
-        children: [
-          {
-            text: "数据类型", link: "数据类型"
-          }
-        ]
+        text: "Java基础",
+        link: "/java/base/"
       },
       {
-        text: "java进阶",
-        // link: "java进阶/",
-        prefix: "java进阶/",
-        children: [
-          {
-            text: "IO", link: "IO"
-          }
-        ]
+        text: "Java进阶",
+        link: "/java/advanced/"
       },
       {
-        text: "spring系列",
-        // link: "spring/",
-        prefix: "spring系列/",
-        children: [
-          {
-            text: "AOP", link: "AOP"
-          },
-          {
-            text: "IOC", link: "IOC"
-          },
-        ]
+        text: "Spring系列",
+        link: "/java/spring/"
+      },
+      {
+        text: "Java学习路线",
+        link: "/java/java-learning-route"
+      },
+      {
+        text: "jvm",
+        link: "/java-jvm/"
       },
     ]
   },
   {
     text: "Python",
-    // prefix: "/python/",
     icon: "python",
-    link: "/python/"
+    prefix: "/python/",
+    children: [
+      {
+        text: "Python学习路线",
+        link: "python-learning-route",
+      }
+      
+    ]
+  },
+  {
+    text: "数据库",
+    icon: "database",
+    prefix: "/database/",
+    children: [
+      {
+        text: "Mysql",
+        icon: "",
+        link: "mysql/"
+      },
+      {
+        text: "Redis",
+        icon: "",
+        link: "redis/"
+      },
+    ]
   }
 ]);

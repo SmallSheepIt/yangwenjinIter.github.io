@@ -5,53 +5,54 @@ export default sidebar({
   "/java/": [
     {
       text: "Java基础",
-      prefix: "java基础/",
+      prefix: "base/",
       icon: "java",
       collapsible: true,
       children: [
-          "数据类型"
       ]
     },
     {
       text: "Java进阶",
-      prefix: "java进阶/",
-      icon: "git",
+      prefix: "advanced/",
+      icon: "java",
       collapsible: true,
       children: [
-          "IO"
       ]
     },
     {
       text: "Spring系列",
-      prefix: "spring系列/",
+      prefix: "spring/",
       icon: "spring_",
       collapsible: true,
       children: [
-          "IOC",
-          "AOP"
       ]
     },
+    "java-learning-route"
   ],
-  "/": [
-    "",
-    {
-      text: "如何使用",
-      icon: "laptop-code",
-      prefix: "demo/",
-      link: "demo/",
-      children: "structure",
-    },
-    {
-      text: "文章",
-      icon: "book",
-      prefix: "posts/",
-      children: "structure",
-    },
-    "intro",
-    {
-      text: "幻灯片",
-      icon: "person-chalkboard",
-      link: "https://plugin-md-enhance.vuejs.press/zh/guide/content/revealjs/demo.html",
-    },
+  "/java-jvm/": [
+    "memory-area",
   ],
+  "/python/": [
+    "python-learning-route",
+  ],
+  "/database/": [
+    {
+      text: "Mysql",
+      prefix: "mysql/",
+      icon: "",
+      collapsible: true,
+      children: [
+
+      ]
+    },
+    {
+      text: "Redis",
+      prefix: "redis/",
+      icon: "",
+      collapsible: true,
+      children: [
+
+      ]
+    },
+  ]
 });
