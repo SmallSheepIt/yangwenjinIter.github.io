@@ -7,6 +7,11 @@ export default defineUserConfig({
   lang: "zh-CN",
   title: "编程体系梳理",
   description: "有输入才能有输出；输出激励输入；输出是手段；体系是目的",
+
+  head: [
+    
+  ],
+
   theme,
 
   plugins: [

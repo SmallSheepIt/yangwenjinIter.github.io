@@ -11,9 +11,8 @@ export default hopeTheme({
     url: "https://mister-hope.com",
   },
 
-  // iconAssets: "fontawesome-with-brands",
-  iconAssets: "fontawesome",
-  // iconAssets: "//at.alicdn.com/t/c/font_2922463_o9q9dxmps9.css",
+  // 内置的"fontawesome" "fontawesome-with-brands"
+  iconAssets: "//at.alicdn.com/t/c/font_4542339_zenunby0axf.css",
 
   // 纯净模式，会禁用一些花哨的动画以及一些色彩，只提供功能
   // pure: true,
@@ -41,6 +40,8 @@ export default hopeTheme({
   // 页脚
   footer: "默认页脚",
   displayFooter: true,
+
+  headerDepth: 2,
 
   // 文章信息，可以填入数组，数组的顺序是各条目显示的顺序
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "Word","ReadingTime"],

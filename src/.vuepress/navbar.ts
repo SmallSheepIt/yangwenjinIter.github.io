@@ -52,6 +52,7 @@ export default navbar([
   {
     text: "Java",
     prefix: "/java/",
+    icon: "java",
     children: [
       {
         text: "java基础",
@@ -88,4 +89,10 @@ export default navbar([
       },
     ]
   },
+  {
+    text: "Python",
+    // prefix: "/python/",
+    icon: "python",
+    link: "/python/"
+  }
 ]);

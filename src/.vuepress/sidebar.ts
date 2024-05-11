@@ -6,6 +6,7 @@ export default sidebar({
     {
       text: "Java基础",
       prefix: "java基础/",
+      icon: "java",
       collapsible: true,
       children: [
           "数据类型"
@@ -14,14 +15,16 @@ export default sidebar({
     {
       text: "Java进阶",
       prefix: "java进阶/",
+      icon: "git",
       collapsible: true,
       children: [
           "IO"
       ]
     },
     {
-      text: "spring系列",
+      text: "Spring系列",
       prefix: "spring系列/",
+      icon: "spring_",
       collapsible: true,
       children: [
           "IOC",
