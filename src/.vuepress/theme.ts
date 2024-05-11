@@ -13,7 +13,7 @@ export default hopeTheme({
   },
 
   // 内置的"fontawesome" "fontawesome-with-brands"
-  iconAssets: "//at.alicdn.com/t/c/font_4542339_g1xzxah8ifm.css",
+  iconAssets: "//at.alicdn.com/t/c/font_4542339_npi1ubog1m.css",
 
   // 纯净模式，会禁用一些花哨的动画以及一些色彩，只提供功能
   // pure: true,
@@ -21,7 +21,8 @@ export default hopeTheme({
 
 
   // logo: "https://theme-hope-assets.vuejs.press/logo.svg",
-  logo: "/avatar.png",
+  logo: "/logo.png",
+  favicon: "/logo.png",
 
   repo: "https://github.com/yangwenjinIter/yangwenjinIter.github.io",
   // 自定义仓库链接文字。默认从 `repo` 中自动推断为
@@ -57,11 +58,10 @@ export default hopeTheme({
   // 博客相关
   blog: {
     name: "yang 同学",
-    avatar: "/avatar.png",
+    avatar: "/logo.png",
     description: "梦想黑客",
     intro: "/intro.html",
     sidebarDisplay: "mobile",
-    roundAvatar: true,
     medias: {
       // Baidu: "https://example.com",
       // BiliBili: "https://example.com",

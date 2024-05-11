@@ -39,19 +39,20 @@ export default sidebar({
     {
       text: "Mysql",
       prefix: "mysql/",
-      icon: "",
+      icon: "mysql1",
       collapsible: true,
       children: [
-
+        "data-type",
+        "memory-engine"
       ]
     },
     {
       text: "Redis",
       prefix: "redis/",
-      icon: "",
+      icon: "redis",
       collapsible: true,
       children: [
-
+        "data-type"
       ]
     },
   ]

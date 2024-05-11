@@ -24,14 +24,14 @@ export default navbar([
         link: "/java/java-learning-route"
       },
       {
-        text: "jvm",
+        text: "JVM",
         link: "/java-jvm/"
       },
     ]
   },
   {
     text: "Python",
-    icon: "python",
+    icon: "python2",
     prefix: "/python/",
     children: [
       {

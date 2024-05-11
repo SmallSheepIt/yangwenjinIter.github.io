@@ -1,5 +1,5 @@
 ---
-# home: true
+home: true
 layout: BlogHome
 icon: shouye
 title: 主页
