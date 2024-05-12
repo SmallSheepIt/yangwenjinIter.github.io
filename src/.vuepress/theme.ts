@@ -8,7 +8,7 @@ export default hopeTheme(
     // darkmode: "switch",
     hostname: "http://113.45.177.232/",
     author: {
-      name: "yang 同学",
+      name: "SmallSheep",
       url: "http://113.45.177.232/",
       email: "1757821361@qq.com"
     },
@@ -58,7 +58,7 @@ export default hopeTheme(
 
     // 博客相关
     blog: {
-      name: "yang 同学",
+      name: "SmallSheep",
       avatar: "/logo.png",
       description: "梦想黑客",
       intro: "/intro.html",
@@ -120,7 +120,7 @@ export default hopeTheme(
     // 在这里配置主题提供的插件
     plugins: {
       copyright: {
-        author: " yang 同学",
+        author: " SmallSheep",
         license: "MIT",
         triggerLength: 100,
         maxLength: 700,

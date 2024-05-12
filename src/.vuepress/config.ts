@@ -9,7 +9,7 @@ const __dirname = getDirname(import.meta.url);
 export default defineUserConfig({
   base: "/",
   lang: "zh-CN",
-  title: "编程体系",
+  title: "SmallSheep",
   description: "打造自己的编程知识体系",
 
   head: [

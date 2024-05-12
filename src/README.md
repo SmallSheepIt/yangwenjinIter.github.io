@@ -12,11 +12,12 @@ heroImage: https://theme-hope-assets.vuejs.press/logo.svg
 # 深色模式的背景图片
 # bgImageDark: "https://theme-hope-assets.vuejs.press/logo.svg"
 # 主标题
-heroText: yang 同学
+heroText: SmallSheep
 # 副标题
 tagline: 一个构建知识体系的网站
 # 全屏
-# heroFullScreen: true
+heroFullScreen: true
+article: false
 # 主页按钮
 # projects:
 #   - icon: project
