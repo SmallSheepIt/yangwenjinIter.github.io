@@ -5,6 +5,7 @@ import { MR_HOPE_AVATAR } from "./logo.js";
 
 export default hopeTheme(
   {
+    search: true,
     // darkmode: "switch",
     hostname: "http://113.45.177.232/",
     author: {
