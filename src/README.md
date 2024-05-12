@@ -4,7 +4,8 @@ layout: BlogHome
 icon: home
 title: Blog
 # 头像
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+# heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+heroImage: "/logo.png"
 # 深色的头像
 # heroImageDark: https://theme-hope-assets.vuejs.press/logo.svg
 # 背景图片，注意必须填入完整额 url 或者 绝对路径
