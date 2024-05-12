@@ -25,6 +25,12 @@ export default hopeTheme(
     logo: "/logo.png",
     favicon: "/logo.png",
 
+    navbarLayout: {
+      start: ['Brand'],
+      center: [],
+      end: ['Search', 'Links', 'Language', 'Outlook'],
+    },
+
     repo: "https://github.com/yangwenjinIter/yangwenjinIter.github.io",
     // 自定义仓库链接文字。默认从 `repo` 中自动推断为
     // "GitHub" / "GitLab" / "Gitee" / "Bitbucket" 其中之一，或是 "Source"。
@@ -135,7 +141,7 @@ export default hopeTheme(
       // 警告: 这是一个仅供演示的测试服务，在生产环境中请自行部署并使用自己的服务！
       // comment: {
       //   provider: "Waline",
-      //   serverURL: "http://113.45.177.232/",
+      //   serverURL: "https://yangwenjin-blog-comment-waline-p6qx9fdm6.vercel.app",
       // },
 
       components: {

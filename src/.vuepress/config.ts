@@ -33,19 +33,36 @@ export default defineUserConfig({
         dark: "one-dark-pro",
       },
     }),
-    // 评论
     commentPlugin({
+      // Giscus 评论插件
       // comment: false,
-      provider: "Giscus",
-      repo :"yangwenjinIter/yangwenjin-docs-comment-giscus",
-      repoId:"R_kgDOL6Klig",
-      category:"General",
-      categoryId:"DIC_kwDOL6Klis4CfSf7",
-      mapping: "pathname",
-      lazyLoading: true,
+      // provider: "Giscus",
+      // repo :"yangwenjinIter/yangwenjin-docs-comment-giscus",
+      // repoId:"R_kgDOL6Klig",
+      // category:"General",
+      // categoryId:"DIC_kwDOL6Klis4CfSf7",
+      // mapping: "pathname",
+      // lazyLoading: true,
+
+      provider: "Waline",
+      serverURL: "yangwenjin-blog-comment-waline.vercel.app",
+      // 快速反应
+      reaction: true,
+      // 浏览量统计
+      pageview: true,
+      emoji: [
+        '//unpkg.com/@waline/emojis@1.2.0/weibo',
+        '//unpkg.com/@waline/emojis@1.2.0/bmoji',
+        '//unpkg.com/@waline/emojis@1.2.0/alus',
+        '//unpkg.com/@waline/emojis@1.2.0/bilibili',
+        '//unpkg.com/@waline/emojis@1.2.0/qq',
+        '//unpkg.com/@waline/emojis@1.2.0/tieba',
+        '//unpkg.com/@waline/emojis@1.2.0/tw-emoji',
+        '//unpkg.com/@waline/emojis@1.2.0/soul-emoji',
+      ]
     }),
   ],
 
   // 和 PWA 一起启用
-  // shouldPrefetch: false,
+  shouldPrefetch: false,
 });
