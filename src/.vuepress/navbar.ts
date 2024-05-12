@@ -9,33 +9,39 @@ export default navbar([
     children: [
       {
         text: "Java基础",
+        icon: "basis",
         link: "/java/base/"
       },
       {
         text: "Java进阶",
+        icon: "advanced",
         link: "/java/advanced/"
       },
       {
         text: "Spring系列",
+        icon: "spring",
         link: "/java/spring/"
       },
       {
         text: "Java学习路线",
+        icon: "learning-route",
         link: "/java/java-learning-route"
       },
       {
         text: "JVM",
+        icon: "jvm",
         link: "/java-jvm/"
       },
     ]
   },
   {
     text: "Python",
-    icon: "python2",
+    icon: "python",
     prefix: "/python/",
     children: [
       {
         text: "Python学习路线",
+        icon: "learning-route",
         link: "python-learning-route",
       }
       
@@ -48,12 +54,12 @@ export default navbar([
     children: [
       {
         text: "Mysql",
-        icon: "",
+        icon: "mysql",
         link: "mysql/"
       },
       {
         text: "Redis",
-        icon: "",
+        icon: "redis",
         link: "redis/"
       },
     ]

@@ -1,8 +1,8 @@
 ---
 home: true
 layout: BlogHome
-icon: shouye
-title: 主页
+icon: home
+title: Blog
 # 头像
 heroImage: https://theme-hope-assets.vuejs.press/logo.svg
 # 深色的头像
@@ -14,7 +14,7 @@ heroImage: https://theme-hope-assets.vuejs.press/logo.svg
 # 主标题
 heroText: yang 同学
 # 副标题
-tagline: 一个为了构建知识体系的网站
+tagline: 一个构建知识体系的网站
 # 全屏
 # heroFullScreen: true
 # 主页按钮

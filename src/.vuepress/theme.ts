@@ -13,7 +13,7 @@ export default hopeTheme({
   },
 
   // 内置的"fontawesome" "fontawesome-with-brands"
-  iconAssets: "//at.alicdn.com/t/c/font_4542339_npi1ubog1m.css",
+  iconAssets: "//at.alicdn.com/t/c/font_4542339_imvro6r5o5.css",
 
   // 纯净模式，会禁用一些花哨的动画以及一些色彩，只提供功能
   // pure: true,
@@ -62,6 +62,9 @@ export default hopeTheme({
     description: "梦想黑客",
     intro: "/intro.html",
     sidebarDisplay: "mobile",
+    // 文章摘要(不生效)
+    // excerptLength: 0,
+    timeline: "我的写作记录",
     medias: {
       // Baidu: "https://example.com",
       // BiliBili: "https://example.com",

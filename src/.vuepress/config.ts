@@ -1,19 +1,29 @@
 import { defineUserConfig } from "vuepress";
+import { getDirname, path } from "vuepress/utils";
 import theme from "./theme.js";
 import { shikiPlugin } from "@vuepress/plugin-shiki";
 import { commentPlugin } from '@vuepress/plugin-comment'
 
+const __dirname = getDirname(import.meta.url);
+
 export default defineUserConfig({
   base: "/",
   lang: "zh-CN",
-  title: "编程体系梳理",
-  description: "有输入才能有输出；输出激励输入；输出是手段；体系是目的",
+  title: "编程体系",
+  description: "打造自己的编程知识体系",
 
   head: [
 
   ],
 
   theme,
+
+  alias: {
+    "@theme-hope/modules/blog/components/BlogHero": path.resolve(
+      __dirname,
+      "./components/BlogHero.vue",
+    ),
+  },
 
   plugins: [
     shikiPlugin({

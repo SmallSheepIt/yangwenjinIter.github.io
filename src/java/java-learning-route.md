@@ -1,8 +1,18 @@
 ---
+# 星标
+star: true  
+# 分类
+category:  
+ - Java
+# 标签
 tags:
  - Java
  - 学习路线
+# 写作日期
+Data: 2024-05-12
 ---
+这是摘要
+<!-- more -->
 # Java 学习路线
 
 ## 符号表
