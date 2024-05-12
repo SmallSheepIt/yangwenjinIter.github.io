@@ -13,11 +13,11 @@ export default defineUserConfig({
   description: "打造自己的编程知识体系",
 
   head: [
-
+    
   ],
 
   theme,
-
+  
   alias: {
     "@theme-hope/modules/blog/components/BlogHero": path.resolve(
       __dirname,
