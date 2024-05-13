@@ -2,7 +2,8 @@ import { defineUserConfig } from "vuepress";
 import { getDirname, path } from "vuepress/utils";
 import theme from "./theme.js";
 import { shikiPlugin } from "@vuepress/plugin-shiki";
-import { commentPlugin } from '@vuepress/plugin-comment'
+import { commentPlugin } from '@vuepress/plugin-comment';
+// import { searchPlugin } from '@vuepress/plugin-search';
 
 const __dirname = getDirname(import.meta.url);
 
@@ -61,6 +62,14 @@ export default defineUserConfig({
         '//unpkg.com/@waline/emojis@1.2.0/soul-emoji',
       ]
     }),
+
+    // 搜索插件 @vuepress/plugin-search
+    // searchPlugin({
+    //   // 配置项
+    //   isSearchable: (page) => page.path !== "/",
+    //   maxSuggestions: 10,
+    // }),
+
   ],
 
   // 和 PWA 一起启用

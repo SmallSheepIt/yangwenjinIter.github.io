@@ -126,6 +126,32 @@ export default hopeTheme(
 
     // 在这里配置主题提供的插件
     plugins: {
+      searchPro: {
+        // 索引全部内容
+        indexContent: true,
+        autoSuggestions: true,
+        // 为分类和标签添加索引
+        customFields: [
+          {
+            getter(page: any) {
+              return page.frontmatter.category;
+            },
+            formatter: {
+              '/': '分类：$content',
+              // '/en/': 'Category: $content',
+            },
+          },
+          {
+            getter(page: any) {
+              return page.frontmatter.tag;
+            },
+            formatter: {
+              '/': '标签：$content',
+              // '/en/': 'Tag: $content',
+            },
+          },
+        ],
+      },
       copyright: {
         author: " SmallSheep",
         license: "MIT",
